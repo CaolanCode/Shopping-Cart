@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/CaolanCode/Shopping-Cart/issues"
   },
-  "homepage": "https://caolancode.github.io/shopping-cart",
+  "homepage": "https://caolancode.github.io/shopping-cart/",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.5",
