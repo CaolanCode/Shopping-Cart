@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
@@ -18,13 +20,14 @@
   "bugs": {
     "url": "https://github.com/CaolanCode/Shopping-Cart/issues"
   },
-  "homepage": "https://github.com/CaolanCode/Shopping-Cart#readme",
+  "homepage": "https://caolancode.github.io/shopping-cart",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.86.0",
