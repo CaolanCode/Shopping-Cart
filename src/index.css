@@ -49,3 +49,34 @@ main {
 .home ul {
   padding-left: 20px;
 }
+
+/* store */
+.items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.item {
+  padding: 20px;
+  width: 20vw;
+  cursor: pointer;
+  border-radius: 2vw;
+}
+.item:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.item img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item p {
+  padding: 0;
+}

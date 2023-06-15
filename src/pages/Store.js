@@ -25,8 +25,10 @@ const Item = ({index, image, cost, sizes}) => {
   return (
     <div className="item">
       <img src={image} alt={"Item " + index} />
-      <p>${cost}</p>
-      <p>Available: {sizes}</p>
+      <div className="item-info">
+        <p>${cost}</p>
+        <p>{sizes}</p>
+      </div>
     </div>
   )
 }
