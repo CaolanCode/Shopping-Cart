@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Store from "./pages/Store"
 import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
+import "./index.css"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
