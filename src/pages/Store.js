@@ -1,5 +1,4 @@
 import React from "react";
-import tshirt1 from "../images/tshirt1.jpg"
 
 export default function Store() {
   const itemsObj = getItems()
